@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
 import {
   BsLinkedin,
   BsGithub,
   BsYoutube,
   BsInstagram
 } from "react-icons/bs"
-import "./Footer.css"
+import "../Footer/Footer.css"
 
 const Footer = () => {
   return (
@@ -45,16 +45,16 @@ const Footer = () => {
                 <a className="text-white mt-2 d-block mb-1" href="tel:+84 364857009 ">+84 364857009</a>
                 <a className="text-white mt-2 d-block mb-0" href="mailto:techtitans328@gmail.com">techtitans328@gmail.com</a>
                 <div className="social-icons d-flex align-items-center gap-30 mt-4">
-                  <a className="text-white fs-4" href="">
+                  <a className="text-white fs-4" href="#">
                     <BsLinkedin />
                   </a>
-                  <a className="text-white fs-4" href="">
+                  <a className="text-white fs-4" href="#">
                     <BsGithub />
                   </a>
-                  <a className="text-white fs-4" href="">
+                  <a className="text-white fs-4" href="#">
                     <BsYoutube />
                   </a>
-                  <a className="text-white fs-4" href="">
+                  <a className="text-white fs-4" href="#">
                     <BsInstagram />
                   </a>
                 </div>

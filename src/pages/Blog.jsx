@@ -1,13 +1,13 @@
 import React from "react"
 import BreadCrumb from "../components/BreadCrumb"
 
-const Contact = () => {
+const Blog = () => {
   return (
     <>
-      <BreadCrumb title="Contact" />
+      <BreadCrumb title="Blogs" />
       
     </>
   )
 }
 
-export default Contact
+export default Blog

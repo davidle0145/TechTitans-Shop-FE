@@ -1,7 +1,7 @@
 import React from "react"
 import { NavLink, Link } from "react-router-dom"
 import { BsSearch } from "react-icons/bs" 
-import "./Header.css"
+import "../Header/Header.css"
 
 const Header = () => {
   return (
@@ -93,8 +93,8 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/">Our Store</NavLink>
-                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="/store">Our Store</NavLink>
+                    <NavLink to="/blog">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>
                 </div>

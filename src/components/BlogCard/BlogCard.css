@@ -1,0 +1,46 @@
+.blog-car {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.blog-car img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-content .date {
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--color-777777);
+    padding: 0;
+}
+
+.blog-content h5 {
+    font-size: 18px;
+}
+
+.blog-content .desc {
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--color-777777);
+}
+
+.button {
+    background-color: var(--color-232f3e);
+    color: white;
+    font-size: 14px;
+    padding: 13px 33px;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: var(--color-febd69);
+    color: var(--color-131921);
+}

@@ -1,14 +1,16 @@
 import React from "react"
 import ReactStars from "react-rating-stars-component"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import "../ProductCard/ProductCard.css"
 
-const ProductCard = () => {
+const ProductCard = (props) => {
+    const location = useLocation()
+    const {grid} = props
   return (
     <>
-      <div className="col-3">
-        <Link className="product-card position-relative">
-        <div className="product-image">
+        <div className={`${location.pathname == "/store" ? `gr-${grid}`  : "col-3"}`}>
+            <Link className="product-card position-relative">
+                <div className="product-image">
                     <img className="img-fluid" src="images/watch.jpg" alt="product-image" />
                     <img className="img-fluid" src="images/catbanner-02.jpg" alt="product-image" />
                 </div>
@@ -18,6 +20,7 @@ const ProductCard = () => {
                         Kids headdphones bulk 10 pack multi colored for students
                     </h5>
                     <ReactStars count={5} size={24} value={3} edit={false} activeColor="#ffd700" />
+                    <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, labore?</p>
                     <p className="price">$ 100.00</p>
                 </div>
                 <div className="wishlish-icon position-absolute">

@@ -31,8 +31,8 @@ const SpecialProduct = () => {
             </div>
             <div className="product-count my-3">
                 <p>Products: 5</p>
-                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div className="progress-bar progress-bar-striped progress-bar-animated" style={{width: "30%"}}></div>
+                <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress-bar" style={{width: "30%"}}></div>
                 </div>
             </div>
             <Link className="button">Add to Cart</Link>

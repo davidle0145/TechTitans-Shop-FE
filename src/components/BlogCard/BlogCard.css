@@ -1,9 +1,9 @@
-.blog-car {
+.blog-card {
     background-color: white;
     border-radius: 10px;
 }
 
-.blog-car img {
+.blog-card img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }

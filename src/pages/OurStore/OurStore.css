@@ -2,7 +2,7 @@
 .filter-card {
     background-color: white;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 15px 15px 25px;
 }
     /* filter-title */
 .filter-title {
@@ -26,7 +26,7 @@
     font-weight: 600;
     color: var(--color-1c1c1b);
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
         /* form-check */
@@ -38,4 +38,43 @@
 .form-check .form-check-input:focus {
     box-shadow: none;
     border-color: rgba(0, 0, 0, 0.25);
+}
+
+.colors {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colors li {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+        /* random-products */
+.random-products h5 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.random-products:first-child {
+    border-bottom: 1px solid var(--color-ededed);  
+}
+
+        /* filter-sort-grid */
+.filter-sort-grid {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.filter-sort-grid .grid img {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-ededed);
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
 }
